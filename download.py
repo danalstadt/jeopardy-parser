@@ -8,7 +8,7 @@ import time
 
 current_working_directory = os.path.dirname(os.path.abspath(__file__))
 archive_folder = os.path.join(current_working_directory, "j-archive")
-SECONDS_BETWEEN_REQUESTS = 5
+SECONDS_BETWEEN_REQUESTS = 2
 ERROR_MSG = "ERROR: No game"
 
 
